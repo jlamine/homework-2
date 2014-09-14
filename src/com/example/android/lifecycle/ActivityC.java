@@ -86,11 +86,6 @@ public class ActivityC extends Activity {
         mStatusTracker.setStatus(mActivityName, getString(R.string.on_destroy));
     }
 
-    public void startDialog(View v) {
-        Intent intent = new Intent(ActivityC.this, DialogActivity.class);
-        startActivity(intent);
-    }
-
     public void startActivityA(View v) {
         Intent intent = new Intent(ActivityC.this, ActivityA.class);
         startActivity(intent);

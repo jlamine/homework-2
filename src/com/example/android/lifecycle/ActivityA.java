@@ -87,11 +87,6 @@ public class ActivityA extends Activity {
         mStatusTracker.clear();
     }
 
-    public void startDialog(View v) {
-        Intent intent = new Intent(ActivityA.this, DialogActivity.class);
-        startActivity(intent);
-    }
-
     public void startActivityB(View v) {
         Intent intent = new Intent(ActivityA.this, ActivityB.class);
         startActivity(intent);

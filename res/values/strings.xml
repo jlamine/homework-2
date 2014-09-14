@@ -19,7 +19,6 @@ limitations under the License.
 
     <string name="lifecycle_method_list">Lifecycle Method List</string>
     <string name="activity_status">Activity Status</string>
-    <string name="dialog_text">Simple Dialog</string>
 
     <string name="on_create">onCreate</string>
     <string name="on_destroy">onDestroy</string>
@@ -36,12 +35,10 @@ limitations under the License.
     <string name="btn_start_a_label">Start A</string>
     <string name="btn_start_b_label">Start B</string>
     <string name="btn_start_c_label">Start C</string>
-    <string name="btn_start_dialog_label">Dialog</string>
 
     <string name="btn_finish_a_label">Finish A</string>
     <string name="btn_finish_b_label">Finish B</string>
     <string name="btn_finish_c_label">Finish C</string>
-    <string name="btn_finish_dialog_label">Close</string>
 
     <string name="on_activity_created">onActivityCreated</string>
     <string name="on_attach">onAttach</string>
@@ -56,5 +53,4 @@ limitations under the License.
     <string name="start_c">Start C</string>
 
     <string name="close">Close</string>
-    <string name="dialog">Dialog</string>
 </resources>
