@@ -17,13 +17,12 @@
 package com.example.android.lifecycle;
 
 import android.app.Activity;
-import android.app.AlertDialog;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+import com.example.android.lifecycle.util.FinishUtil;
 import com.example.android.lifecycle.util.StatusTracker;
 import com.example.android.lifecycle.util.Utils;
 
@@ -100,17 +99,6 @@ public class ActivityB extends Activity {
     }
 
     public void finishActivityB(View v) {
-    	AlertDialog.Builder builder = new AlertDialog.Builder(ActivityB.this);
-    	builder
-    		.setMessage(R.string.confirm_finish_b)
-        	.setTitle(R.string.confirm_finish_title)
-        	.setNegativeButton(R.string.yes, new DialogInterface.OnClickListener() {
-        		public void onClick(DialogInterface dialog, int id) {
-        			ActivityB.this.finish();
-        		}
-        	})
-        	.setPositiveButton(R.string.no, null);
-    	AlertDialog dialog = builder.create();
-    	dialog.show();
+    	FinishUtil.finish(ActivityB.this);
     }
 }
