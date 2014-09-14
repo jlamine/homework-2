@@ -50,7 +50,7 @@ public final class R {
         public static final int activity_c=0x7f030002;
     }
     public static final class string {
-        public static final int activity_a=0x7f060019;
+        public static final int activity_a=0x7f06001f;
         public static final int activity_a_label=0x7f06000a;
         public static final int activity_b_label=0x7f06000b;
         public static final int activity_c_label=0x7f06000c;
@@ -62,23 +62,29 @@ public final class R {
         public static final int btn_start_a_label=0x7f06000d;
         public static final int btn_start_b_label=0x7f06000e;
         public static final int btn_start_c_label=0x7f06000f;
-        public static final int close=0x7f06001d;
+        public static final int close=0x7f060023;
+        public static final int confirm_finish_a=0x7f060014;
+        public static final int confirm_finish_b=0x7f060015;
+        public static final int confirm_finish_c=0x7f060016;
+        public static final int confirm_finish_title=0x7f060013;
         public static final int lifecycle_method_list=0x7f060001;
-        public static final int on_activity_created=0x7f060013;
-        public static final int on_attach=0x7f060014;
+        public static final int no=0x7f060018;
+        public static final int on_activity_created=0x7f060019;
+        public static final int on_attach=0x7f06001a;
         public static final int on_create=0x7f060003;
-        public static final int on_create_view=0x7f060015;
+        public static final int on_create_view=0x7f06001b;
         public static final int on_destroy=0x7f060004;
-        public static final int on_destroy_view=0x7f060016;
-        public static final int on_detach=0x7f060017;
+        public static final int on_destroy_view=0x7f06001c;
+        public static final int on_detach=0x7f06001d;
         public static final int on_pause=0x7f060008;
         public static final int on_restart=0x7f060006;
         public static final int on_resume=0x7f060009;
         public static final int on_start=0x7f060005;
         public static final int on_stop=0x7f060007;
-        public static final int on_view_created=0x7f060018;
-        public static final int start_a=0x7f06001a;
-        public static final int start_b=0x7f06001b;
-        public static final int start_c=0x7f06001c;
+        public static final int on_view_created=0x7f06001e;
+        public static final int start_a=0x7f060020;
+        public static final int start_b=0x7f060021;
+        public static final int start_c=0x7f060022;
+        public static final int yes=0x7f060017;
     }
 }

@@ -39,6 +39,14 @@ limitations under the License.
     <string name="btn_finish_a_label">Finish A</string>
     <string name="btn_finish_b_label">Finish B</string>
     <string name="btn_finish_c_label">Finish C</string>
+    
+    <string name="confirm_finish_title">Confirm Finish</string>
+    <string name="confirm_finish_a">Are you sure you want to finish Activity A?</string>
+    <string name="confirm_finish_b">Are you sure you want to finish Activity B?</string>
+    <string name="confirm_finish_c">Are you sure you want to finish Activity C?</string>
+    
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
 
     <string name="on_activity_created">onActivityCreated</string>
     <string name="on_attach">onAttach</string>

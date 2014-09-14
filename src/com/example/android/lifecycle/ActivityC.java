@@ -17,6 +17,8 @@
 package com.example.android.lifecycle;
 
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -97,6 +99,17 @@ public class ActivityC extends Activity {
     }
 
     public void finishActivityC(View v) {
-        ActivityC.this.finish();
+    	AlertDialog.Builder builder = new AlertDialog.Builder(ActivityC.this);
+    	builder
+    		.setMessage(R.string.confirm_finish_c)
+        	.setTitle(R.string.confirm_finish_title)
+        	.setNegativeButton(R.string.yes, new DialogInterface.OnClickListener() {
+        		public void onClick(DialogInterface dialog, int id) {
+        			ActivityC.this.finish();
+        		}
+        	})
+        	.setPositiveButton(R.string.no, null);
+    	AlertDialog dialog = builder.create();
+    	dialog.show();
     }
 }
